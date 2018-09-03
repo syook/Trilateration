@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column
+}
+
+canvas {
+    margin-left: 10px;
+    background: black;
+    width: 1000px;
+    height: 650px;
+}
+
+input, #draw1, #draw2, #draw3, #trilaterate{
+    font-size: 140%;
+}
+
+#clear{
+    font-size: 120%;
+}
