@@ -4,9 +4,29 @@ var c = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-// ranslating origin & drawing origin
-c.translate(150, 450);
+
+// Translating origin & drawing origin
+
+const newX = 150;
+const newY = 450;
+
+c.translate(newX, newY);
 draw(0,0, 5, 'red');
+
+// Drawing x -axix
+c.beginPath();
+c.strokeStyle = "white";
+c.moveTo(0, -newY);
+c.lineTo(0, canvas.height);
+c.stroke();
+
+// Drawing y -axix
+c.beginPath();
+c.strokeStyle = "white";
+c.moveTo(-newX, 0);
+c.lineTo(canvas.width, 0);
+c.stroke();
+
 
 c.scale(5,5);
 
