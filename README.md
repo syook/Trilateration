@@ -17,8 +17,8 @@ triangulation, it does not involve the measurement of angles."</em>
 ## How to use
 
 1. Go to : <https://syook.github.io/Trilateration/index.html><br>
-2. Provide Co-ordinates likes x, y and radius for all three circles and click draw.<br> 
-3. Enter co-ordinates such that circle's arc intersect each other to form Trilateration.<br> 
+2. Provide cordinates likes x, y and radius for all three circles and click draw.<br> 
+3. Enter cordinates such that circle's arc intersect each other to form Trilateration.<br> 
 4. Finally click Trilaterate to form the Trilateration<br>
 
 ### Here is sample data: 
